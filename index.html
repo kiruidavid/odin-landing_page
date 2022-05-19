@@ -9,23 +9,80 @@
     <link href="./style.css" rel="stylesheet">
 </head>
 <body>
-    <header> 
+    <header class="nav"> 
        
-        <nav class="nav"> 
-            <h3 class="nav-logo"><i class="fa fa-binoculars" aria-hidden="true"></i>  BIRD WATCHER</h3>
-            <li class="nav-link"><a href="#">Abount</a></li>
-            <li class="nav-link"><a href="#">Team</a></li>
-            <li class="nav-link"><a href="#">Gallery</a></li>
-            <li class="nav-link"><a href="#">Contact</a></li>
-        </nav>
+        
+            <h3 class="nav-logo"><i class="fa fa-binoculars" aria-hidden="true"></i>  BIRD WATCHER</h3> 
+            <ul class="nav-list">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li> 
+            </ul>
+        
     </header> 
-    <div class="intro-section">
+    <hr>
+    <div class="intro-section"> 
+        <div class="intro-text">
         <h2>This is a birdwatchers page</h2> 
         <p>This website is for birdwatchers to look at diffrent images of birds. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
              ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
         <button>Signup</button>   
-        <img src="./images/rufous.jpg" alt="rufous bird">
+        </div> 
+        <section class="image-pair">
+        <img src="./images/rufous.jpg" alt="rufous bird"> 
+        </section>
 
-    </div>
+    </div> 
+    <div class="column-container"> 
+        <h3>Diffrent types of birds and random facts</h3>
+        <div class="column-row"> 
+            <div class="col"> 
+                <img src="./images/bird-sparrow.jpg"> 
+                <p>Sparrow is a species of birds that can be easily recognized because it lives very close to humans</p>
+
+            </div> 
+            <div class="col"> 
+                <img src="./images/kingfisher.jpg"> 
+                <p>Kingfishers are a group of small to medium-sized, brightly colored birds in the order Coraciiformes.
+                 There are roughly 90 different species of kingfisher in the world</p>
+
+            </div> 
+            <div class="col"> 
+                <img src="./images/parrot.jpg"> 
+                <p>Parrots are highly intelligent, fun-loving creatures that make wonderful pets. While most people are aware of the overall spunk and unique personality traits they possess </p>
+
+            </div> 
+            <div class="col"> 
+                <img src="./images/yellow-billed-hornbill.jpg"> 
+                <p>Hornbills are a family of bird.There are approximately 55 species of hornbills.
+                    Hornbills are found in tropical and subtropical Africa, Asia and Melanesia</p>
+
+            </div>
+
+        </div>
+
+    </div> 
+    <div class="quote-section"> 
+        <p><em>A bird does not sing because it has an answer, it sings because it has a song</em></p> 
+        <h6>-Maya Angelou</h6>
+
+    </div> 
+    <div class="signup-section"> 
+        <div class="signup-text"> 
+            <h4>Be a birdwatcher</h4> 
+            <p>Sign up today to become a birdwatcher!</p>
+
+        </div> 
+        <div class="signup-button"> 
+            <button>Sign up</button>
+
+        </div>
+
+    </div> 
+    <footer class="footer-section"> 
+        <p>Copyright &copy; The Birdwatchers 2022</p>
+
+    </footer>
 </body>
 </html>

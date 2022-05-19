@@ -1,7 +1,172 @@
-nav, .intro-section{ 
-    background-color: #1F2937;
+*{
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 } 
+.nav-logo{
+    font-size: 24px; 
+    font-weight: 500; 
+    float: left; 
+    margin-right: auto; 
+    color: rgb(212, 212, 186)
+} 
+.nav li, .nav a {
+    font-size: 18px; 
+    color: #E5E7EB;
+}
+.nav {
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center; 
+    padding: 20px 10%; 
+    background-color: #1F2937; 
+    height: 45px;
+} 
+.nav-list {
+    margin-left: 90px;
+} 
+.nav-list li {
+    display: inline-block; 
+    padding: 20px;
+} 
+.nav-list li a {
+    text-decoration: none; 
+    font-weight: bold;
+} 
 .intro-section{
-    margin: 0;
+    background-color: #1F2937;  
+    padding: 190px 0 0; 
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    margin-bottom: 64px;
+}  
+.intro-text{
+    flex-basis: 45%;
+    text-align: center; 
+    padding: 0 20px;
+} 
+.image-pair{
+    flex-basis: 45%;
+}
+.image-pair img { 
+    width: 85%;
+    height: auto; 
+    padding-bottom: 89px; 
+} 
+.intro-text h2{
+    font-size: 48px; 
+    font-weight: bold;  
+    
+    color: #f9faf8; 
+    padding: 10px 0; 
+    margin: 0; 
+    line-height: 27px;
+
+} 
+.intro-text p {
+    font-size: 18px; 
+    color: #e5e7eb; 
+    margin-top: 15px;
+} 
+.intro-text button{
+    background-color: #3882f6; 
+    top: 50%;
+    margin-top: 5px; 
+    font-size: 26px; 
+    color: white;
+    border-radius: 8px; 
+    border: 1px solid white; 
+    min-height: 30px; 
+    max-width: 320px;
+} 
+.column-container{
+    padding-top: 10px;
+} 
+.column-container h3{
+    text-align: center; 
+    color: #1f2937; 
+    font-size: 36px; 
+    font-weight: bold;
+}
+.column-row {
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    width: 100%; 
+    padding: 12px 0 ;
+} 
+.col {
+    flex: 25%; 
+    text-align: center;
+}
+.col img {
+    width: 80%; 
+    height: 70%; 
+    border: 3px solid blue;
+}
+.col p {
+    padding: 12px 0; 
+    
+} 
+.quote-section{
+    background-color: #e5e7eb; 
+    height: 166px; 
+    text-align: center;
+} 
+.quote-section p{
+    padding: 14px 0 ; 
+    font-size: 36px; 
+    color: #1f2937;
+} 
+.quote-section h6{
+    font-size: 26px; 
+    padding-right: 0 56px;
+} 
+.signup-section{
+    margin: 8% 26%;
+    padding: 72px 45px; 
+    width: 50%; 
+    height: 75px; 
+    background-color: #3882f6;
+}
+.signup-text{
+    float: left; 
+    color: white;
+} 
+.signup-text h4{
+    font-size: 38px; 
+    font-weight: bold;
+}
+.signup-button{
+    float: right; 
+    
+} 
+.signup-button button{ 
+    top: 50%;
+    border: 2px solid; 
+    font-size: 20px;
+    border-radius: 8px; 
+    background-color: #3882f6;
+    color: white; 
+    min-height: 30px; 
+    max-width: 120px;
+
+} 
+.footer-section{ 
+    background-color: #1F2937; 
+    height: 45px; 
+    width: 100%; 
+    text-align: center; 
+    padding: 12px 0; 
+    color: white; 
+    font-size: 15px;
+
+} 
+button:hover{
+    background-color: brown;
+} 
+a:hover{
+    font-size: 32px;
 }
